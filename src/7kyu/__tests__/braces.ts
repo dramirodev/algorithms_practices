@@ -1,4 +1,4 @@
-import {validParentheses} from '../braces/braces';
+import {validParentheses} from '../valid-parentheses/valid-parentheses';
 
 describe("Sample tests", function () {
   it("Should return true for valid parentheses", function () {
