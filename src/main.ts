@@ -1,4 +1,4 @@
-import {validParentheses} from "./7kyu/braces/braces";
+import {validParentheses} from "./7kyu/valid-parentheses/valid-parentheses";
 
 
 const result = validParentheses("(((())()))(()())(()())()((()))(()())(())((()(()())())))((())(())(())(()(()())(())))(()())(())())");
