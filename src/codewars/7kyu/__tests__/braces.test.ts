@@ -1,6 +1,6 @@
 import {validParentheses} from '../valid-parentheses/valid-parentheses';
 
-describe("Sample tests", function () {
+describe("braces", function () {
   it("Should return true for valid parentheses", function () {
     expect(validParentheses("()")).toBeTruthy();
     expect(validParentheses("((()))")).toBeTruthy();

@@ -1,6 +1,6 @@
 import {likes} from "../who-like-this/who-like-this";
 
-describe('static tests', function () {
+describe('wholikethis', function () {
   it('should return correct text', function () {
     expect(likes([])).toBe('no one likes this');
     expect(likes(['Peter'])).toBe('Peter likes this');

@@ -1,4 +1,4 @@
-## advices to solve the problems by Georsge Polya
+# This course follow the method of George Polya to solve the problems,
 ## 1. Understand the problem
     Questions to ask:
     1. Can I restate the problem in my own words?
