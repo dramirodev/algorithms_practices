@@ -23,3 +23,4 @@ export function validParentheses(parenStr: string) {
 
   return !stack.length;
 }
+

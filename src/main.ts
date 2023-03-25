@@ -1,4 +1,4 @@
-import {highAndLow} from "./7kyu/highest_and_lowest/highest_and_lowest";
+import {highAndLow} from "./codewars/7kyu/highest_and_lowest/highest_and_lowest";
 
 
 
