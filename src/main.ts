@@ -1,7 +1,6 @@
-import {highAndLow} from "./codewars/7kyu/highest_and_lowest/highest_and_lowest";
+import {
+  validAnagram
+} from "./udemy-js-algorithms-and-data-structure/problem-solving-patterns/frequency-counter/valid-anagram/valid-anagram";
 
 
-
-const result = highAndLow("8 3 -5 42 -1 0 0 -9 4 7 4 -4");
-
-console.log(result);
+validAnagram('anagram', 'nagaram');
