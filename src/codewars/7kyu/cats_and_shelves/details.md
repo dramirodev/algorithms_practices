@@ -10,3 +10,15 @@ Find the minimum number of jumps to go from start to finish
 
 ## Example
 Start 1, finish 5, then answer is ``` 2 (1 => 4 => 5 or 1 => 2 => 5)```
+
+## Solutions that I liked the most
+
+```javascript
+function catsAndShelves(start, finish) {
+  return Math.ceil((finish - start) / 3);
+}
+
+export function solution(start: number, finish: number, difference: number = finish - start) {
+  return difference <= 3 ? 1 : 1 + solution(start, finish - 3);
+}
+```
