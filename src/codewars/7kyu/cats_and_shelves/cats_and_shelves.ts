@@ -1,29 +1,24 @@
-export function catsAndShelves(start: number, finish: number) {
+export function catsAndShelves (start: number, finish: number): number {
   if (start === finish) {
     return 0;
   }
-  if((finish - start) % 3 === 0){
-    return  (finish - start) / 3;
+  if ((finish - start) % 3 === 0) {
+    return (finish - start) / 3;
   }
 
   let jumps = 0;
   let diferencial = start;
 
-  while(diferencial < finish){
-    if((diferencial + 3) <= finish){
-      diferencial +=3;
-
-    }else if((diferencial + 1) <= finish){
-      diferencial += 1
+  while (diferencial < finish) {
+    if ((diferencial + 3) <= finish) {
+      diferencial += 3;
+    } else if ((diferencial + 1) <= finish) {
+      diferencial += 1;
     }
     jumps++;
   }
-
-
-
   return jumps;
 }
-
 
 /**
  * Clever solution

@@ -1,4 +1,4 @@
-import {charCount} from "../problem-solving-aproach/char-count";
+import { charCount } from '../problem-solving-aproach/char-count';
 
 describe('charCount function', function () {
   it('should return an object with the count of each character in the string', function () {

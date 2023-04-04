@@ -1,14 +1,17 @@
-JavaScript's indexOf does not work with arrays as input. This is because [1,2] === [1,2] will return false in JavaScript. Many other languages have similar quirks.
+JavaScript's indexOf does not work with arrays as input. This is because [1,2] === [1,2] will return false in
+JavaScript. Many other languages have similar quirks.
 
-However, sometimes it is useful to search for an Array. Write a function that looks for an array within a two-dimensional array and returns the index of the first matching element. If there is no match, your function should return -1.
+However, sometimes it is useful to search for an Array. Write a function that looks for an array within a
+two-dimensional array and returns the index of the first matching element. If there is no match, your function should
+return -1.
 
 See some examples:
 
 ````javascript
-var arrayToSearch = [[1,2],[3,4],[5,6]];
-var query = [1,2]; // => 0
-query = [5,6]; // => 2
-query = [9,2]; // => -1
+var arrayToSearch = [[1, 2], [3, 4], [5, 6]];
+var query = [1, 2]; // => 0
+query = [5, 6]; // => 2
+query = [9, 2]; // => -1
 ````
 
 You will be required to validate the inputs on the following criteria:

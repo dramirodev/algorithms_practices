@@ -1,12 +1,12 @@
-import { isograms} from "../isograms/isograms";
+import { isIsogram } from '../isograms/isograms';
 
-describe("isograms", () => {
-  it("should return true if the string is an isogram", () => {
-    expect(isograms("Dermatoglyphics")).toEqual(true);
-    expect(isograms("isogram")).toEqual(true);
-    expect(isograms("aba")).toEqual(false);
-    expect(isograms("moOse")).toEqual(false);
-    expect(isograms("isIsogram")).toEqual(false);
-    expect(isograms("")).toEqual(true);
+describe('isIsogram', () => {
+  it('should return true if the string is an isogram', () => {
+    expect(isIsogram('Dermatoglyphics')).toEqual(true);
+    expect(isIsogram('isogram')).toEqual(true);
+    expect(isIsogram('aba')).toEqual(false);
+    expect(isIsogram('moOse')).toEqual(false);
+    expect(isIsogram('isIsogram')).toEqual(false);
+    expect(isIsogram('')).toEqual(true);
   });
 });

@@ -1,19 +1,17 @@
-export function highAndLow(numbers: string){
-
+export function highAndLow (numbers: string): string {
   const numberList = numbers.split(' ');
 
   let minor = Number(numberList[0]);
   let major = Number(numberList[0]);
 
-  for(const number of numberList){
-    const currentNumber = Number(number)
+  for (const number of numberList) {
+    const currentNumber = Number(number);
 
-    if(currentNumber > major){
+    if (currentNumber > major) {
       major = currentNumber;
     }
 
-
-    if(currentNumber < minor){
+    if (currentNumber < minor) {
       minor = currentNumber;
     }
   }

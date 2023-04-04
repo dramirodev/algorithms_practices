@@ -1,4 +1,4 @@
-export function validParentheses(parenStr: string) {
+export function validParentheses (parenStr: string): boolean {
   if (!parenStr.length) {
     return true;
   }
@@ -18,9 +18,7 @@ export function validParentheses(parenStr: string) {
     } else if (stack.pop() !== close) {
       return false;
     }
-
   }
 
   return !stack.length;
 }
-
