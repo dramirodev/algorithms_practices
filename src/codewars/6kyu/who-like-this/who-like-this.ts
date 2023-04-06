@@ -6,7 +6,7 @@ function returnLastName(names: string[]): string {
   return names[names.length - 1];
 }
 
-function transformArrayToString(a: string[]) {
+function transformArrayToString(a: string[]): string {
   return (a).join(", ");
 }
 
